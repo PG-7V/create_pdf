@@ -52,4 +52,7 @@ all_comboboxes.append(cb)
 b = tk.Button(root, text="Show all selections", command=on_select)
 b.pack()
 
+
+
+
 root.mainloop()
