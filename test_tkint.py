@@ -57,9 +57,9 @@ spin.grid(column=1, row=1)
 season.grid(column=1, row=3)
 season_text.grid(column=0, row=3)
 view_price_text.grid(column=0, row=4)
-view_price.grid(column=1, row=4)
-quantity_text.grid(column=0, row=5)
-quantity.grid(column=1, row=5)
+view_price.grid(column=1, row=4, sticky=W, padx=10, pady=10)
+quantity_text.grid(column=0, row=5, padx=(10, 100))
+quantity.grid(column=1, row=5, padx=(10, 100))
 
 
 
